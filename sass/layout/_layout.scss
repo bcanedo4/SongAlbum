@@ -2,6 +2,7 @@
     margin: 11rem 8rem;
     background-color: blue;
     height: 72vh;
+    box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, .5);
 
     display: flex;
     flex: 1;
@@ -9,7 +10,12 @@
     align-content: stretch;
 
     &--left {
+        display: flex;
         flex: 1;
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
     }
 
     &--right {
@@ -17,6 +23,8 @@
         background-image: url(/img/album.jpg);
         background-size: cover;
         background-position: top;
-        margin: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
     }
 }
