@@ -1,0 +1,22 @@
+.container {
+    margin: 11rem 8rem;
+    background-color: blue;
+    height: 72vh;
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-content: stretch;
+
+    &--left {
+        flex: 1;
+    }
+
+    &--right {
+        flex: 1;
+        background-image: url(/img/album.jpg);
+        background-size: cover;
+        background-position: top;
+        margin: 2rem;
+    }
+}
