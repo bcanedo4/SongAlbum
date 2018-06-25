@@ -28,3 +28,17 @@
         }
     }
 }
+
+.artist__box {
+
+    margin-top: .2rem;
+    
+    &--text--top {
+        color: var(--color-grey-dark-3);
+        font-size: $font-small;
+    }   
+
+    &--text--bottom {
+
+    }
+}
