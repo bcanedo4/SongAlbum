@@ -1,0 +1,25 @@
+:root {
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #ccc;
+    
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #B0B0B0;
+
+    --color-orange: #FF7F00;
+    --color-light-blue: #269FF2;
+
+      
+    --line: 1px solid linear-gradient(to right, rgba(255, 127, 0, 1) rgba(255, 127, 0, 0));
+
+}
+
+// Song Title
+$font-large: 1.8rem;
+
+// Header and Footer
+$font-medium: 1.2rem;
+
+// Song author and date
+$font-small: .8rem;

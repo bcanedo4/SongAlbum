@@ -6,4 +6,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    &__info {
+        flex: 2;
+        align-self: center;
+        flex-wrap: wrap;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    &__title {
+        font-size: $font-large;
+        position: relative;
+
+        &--line {
+            display: inline-block;
+            padding-top: 2px;
+            background: linear-gradient(to right, rgba(255,127,0,1), rgba(255,0,0,0));
+            width: 10rem;
+            margin-bottom: .4rem;
+        }
+    }
 }
