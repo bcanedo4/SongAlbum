@@ -27,18 +27,34 @@
             margin-bottom: .4rem;
         }
     }
+
+    &__btn {
+        font-size: $font-small;
+        border: 1px solid var(--color-grey-dark-2);
+        background-color: #fff;
+        color: var(--color-grey-dark-2);
+        font-weight: 600;
+        align-self: center;
+        line-height: 1.8rem;
+        margin-right: 1.2rem;
+    }
 }
 
 .artist__box {
-
+    display: flex;
     margin-top: .2rem;
+    justify-content: space-between;
+
+    &--text {
+        &--top {
+            color: var(--color-grey-dark-3);
+            font-size: $font-small;
+        }   
     
-    &--text--top {
-        color: var(--color-grey-dark-3);
-        font-size: $font-small;
-    }   
-
-    &--text--bottom {
-
+        &--bottom {
+            font-size: $font-small;
+        }
     }
+    
+    
 }

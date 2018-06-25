@@ -33,6 +33,13 @@ body {
   background-size: cover;
   background-position: top; }
 
+.btn, .btn:link, .btn:visited {
+  text-decoration: none;
+  padding: 0 1rem;
+  display: inline-block;
+  border-radius: 10rem;
+  cursor: pointer; }
+
 .header {
   display: flex;
   flex: 1;
@@ -130,9 +137,22 @@ body {
       background: linear-gradient(to right, #ff7f00, rgba(255, 0, 0, 0));
       width: 10rem;
       margin-bottom: .4rem; }
+  .song__btn {
+    font-size: 0.8rem;
+    border: 1px solid var(--color-grey-dark-2);
+    background-color: #fff;
+    color: var(--color-grey-dark-2);
+    font-weight: 600;
+    align-self: center;
+    line-height: 1.8rem;
+    margin-right: 1.2rem; }
 
 .artist__box {
-  margin-top: .2rem; }
+  display: flex;
+  margin-top: .2rem;
+  justify-content: space-between; }
   .artist__box--text--top {
     color: var(--color-grey-dark-3);
+    font-size: 0.8rem; }
+  .artist__box--text--bottom {
     font-size: 0.8rem; }

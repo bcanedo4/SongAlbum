@@ -1,0 +1,11 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 0 1rem;
+        display: inline-block;
+        border-radius: 10rem;
+        cursor: pointer;
+    }
+}
