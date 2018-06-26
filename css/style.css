@@ -8,6 +8,7 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #B0B0B0;
+  --color-grey-dark-4: #9D9D9D;
   --color-orange: #FF7F00;
   --color-light-blue: #269FF2;
   --line: 1px solid linear-gradient(to right, rgba(255, 127, 0, 1) rgba(255, 127, 0, 0)); }
@@ -40,6 +41,31 @@ body {
   border-radius: 10rem;
   cursor: pointer; }
 
+figure {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+figure button[name="play"] {
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-orange);
+  border: none;
+  border-radius: 100%;
+  margin-top: 3rem;
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); }
+
+figure button[name="play"]::after {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  left: 1px;
+  border-style: solid;
+  border-width: 3px 0 3px 6px;
+  border-color: transparent transparent transparent white; }
+
 .header {
   display: flex;
   flex: 1;
@@ -52,7 +78,8 @@ body {
 
 .nav__icon {
   width: 1.5rem;
-  height: 1.5rem; }
+  height: 1.5rem;
+  fill: var(--color-grey-dark-3); }
 
 .search-bar__icon {
   fill: var(--color-grey-dark-3);
@@ -117,7 +144,7 @@ body {
   margin-bottom: auto; }
 
 .song {
-  background-color: var(--color-grey-light-2);
+  background-color: #fff;
   flex: 0 0 85%;
   display: flex;
   flex-direction: column;
@@ -126,16 +153,16 @@ body {
     flex: 2;
     align-self: center;
     flex-wrap: wrap;
-    width: 55%;
+    width: 58%;
     font-weight: 600; }
   .song__title {
     font-size: 1.8rem;
     position: relative; }
     .song__title--line {
       display: inline-block;
-      padding-top: 2px;
+      padding-top: 1px;
       background: linear-gradient(to right, #ff7f00, rgba(255, 0, 0, 0));
-      width: 10rem;
+      width: 7rem;
       margin-bottom: .4rem; }
   .song__btn {
     font-size: 0.8rem;
@@ -146,6 +173,12 @@ body {
     align-self: center;
     line-height: 1.8rem;
     margin-right: 1.2rem; }
+  .song__ratings {
+    display: flex; }
+  .song__order {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-right: auto; }
 
 .artist__box {
   display: flex;
@@ -156,3 +189,21 @@ body {
     font-size: 0.8rem; }
   .artist__box--text--bottom {
     font-size: 0.8rem; }
+
+.footer__icon--black {
+  margin-bottom: -.4rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #000; }
+
+.footer__icon--grey {
+  margin-bottom: -.2rem;
+  margin-right: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--color-grey-dark-4); }
+
+.icon__value {
+  font-size: 0.8rem;
+  margin-right: 1.2rem;
+  color: var(--color-grey-dark-4); }

@@ -63,13 +63,39 @@
                         
                         <button class="btn song__btn">Part 1</button>
                     </div>
-                    <div class="play__btn"></div>
+                    <figure>
+                        <button name="play" class="play__btn"></button>
+                    </figure>
                 </div>
+
                 <div class="song__ratings">
-                    <div class="song__order">1 of 5<span>→</span></div>
-                    <div class="song__favorites"></div>
-                    <div class="song__views"></div>
-                    <div class="song__comments"></div>
+                    <div class="song__order">1 of 5
+                        <svg class="footer__icon--black">
+                            <use xlink:href="img/sprite.svg#icon-arrow-right2"></use>
+                        </svg>
+                    </div>
+
+                    <div class="song__favorites">
+                        <svg class="footer__icon--grey">
+                            <use xlink:href="img/sprite.svg#icon-heart"></use>
+                        </svg>
+                    </div>
+                    <p class="icon__value">400</p>
+
+                    <div class="song__views">
+                        <svg class="footer__icon--grey">
+                            <use xlink:href="img/sprite.svg#icon-eye"></use>
+                        </svg>
+                    </div>
+                    <p class="icon__value">275</p>
+
+                    <div class="song__comments">
+                        <svg class="footer__icon--grey">
+                            <use xlink:href="img/sprite.svg#icon-bubble"></use>
+                        </svg>
+                    </div>
+                    <p class="icon__value">12</p>
+
                 </div>
             </main>
         </div>
