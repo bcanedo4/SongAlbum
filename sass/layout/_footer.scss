@@ -1,0 +1,23 @@
+.footer__icon {
+    
+    &--black {
+        margin-bottom: -.4rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: #000;   
+    }
+
+    &--grey {
+        margin-bottom: -.2rem;
+        margin-right: .5rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        fill: var(--color-grey-dark-4);   
+    }
+}
+
+.icon__value {
+    font-size: $font-small;    
+    margin-right: 1.2rem;
+    color: var(--color-grey-dark-4);
+}
