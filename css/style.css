@@ -30,7 +30,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.jpeg);
   background-size: cover;
   background-position: top; }
 
@@ -137,7 +137,7 @@ figure button[name="play"]::after {
     margin-left: 2rem; }
   .container--right {
     flex: 1;
-    background-image: url(../img/album.jpg);
+    background-image: url(../img/album.jpeg);
     background-size: cover;
     background-position: top;
     margin-top: 2rem;
