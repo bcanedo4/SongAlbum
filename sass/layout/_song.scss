@@ -6,18 +6,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
 
     &__info {
         flex: 2;
         align-self: center;
         flex-wrap: wrap;
-        width: 58%;
-        font-weight: 600;
+        width: 26rem;
         z-index: 20;
+        position: relative;
+
     }
 
     &__title {
         font-size: $font-large;
+        font-weight: 600;
         position: relative;
 
         &--line {
@@ -43,6 +46,7 @@
     &__ratings {
         display: flex;
         margin-left: 4rem;
+        margin-right: 2rem;
     }
 
     &__order {
